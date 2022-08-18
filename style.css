@@ -4,7 +4,7 @@ body{
     flex-direction: column;
 }
 .header, .description, .footer{
-    background-color: #137c80;
+    background-color: #2c3535;
     color: white;
 
 }
@@ -16,7 +16,8 @@ body{
 .logo{
     width: 6%;
     height: 40px;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50%;
 }
 a{
     padding: 20px;
@@ -40,6 +41,10 @@ a{
     width: 600px;
     height: 300px;
     padding: 40px;
+    border-radius: 50px;
+}
+h2{
+    margin-top: 50px;
 }
 .information{
     display: flex;
@@ -56,7 +61,55 @@ a{
 .image{
     width: 200px;
     height: 200px;
+    border-radius: 25%;
 }
 .info{
     padding: 100px 0px 0 100px;
+    width: 200px;
+}
+.info.four{
+    margin-right: 80px;
+}
+.testimonials{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 100px 0;
+    
+}
+.testimonials-review{
+    padding: 0 50px 0 50px;
+    font-size: larger;
+    font-style: italic;
+}
+.reviewer{
+    text-align: end;
+    padding-right:450px ;
+    font-size: large;
+    font-weight: bolder;
+}
+.sign-up{
+    background-color: #228a92;
+    margin: 050px 100px 050px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 30px;
+    border-radius: 20px;
+}
+.sign-button{
+    margin: 50px;
+    background-color: #228a92;
+    padding: 10px;
+    width: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border-color: white;
+
+}
+.footer
+{
+    bottom: 0;
+    text-align: center;
 }
